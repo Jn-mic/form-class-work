@@ -1,0 +1,16 @@
+.container{
+    margin-top: 40px;
+    width: 500px;
+}
+.form-group{
+    position: relative;
+}
+.fillName{
+    font-size:20px 
+}
+.form-data{
+    margin: 20px;
+}
+.alert{
+    display:hidden;
+}

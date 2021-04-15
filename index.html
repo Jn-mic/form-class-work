@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Form|class|work-</title>
+</head>
+<body>
+    <div class="container bg-info fluid ">
+            <h1>Fill in your Bio Data</h1>
+            <p>Are you ready to learn? <br> Let us get <strong>started.</strong> <br> It is time to learn now!</p>
+           <div class="row ">
+            <form class="form form-block form-data">
+                <div class="alert alert-warining">
+                    <em>Thanks for submitting your registration-<span class="fillName" ></span></em> <br>
+                    <em>Your registered name is:-<span id="name"></span> </em> <br>
+                    <em>Your age is:-<span id="date"> </span></em> <br>
+                    <em>You are fluent in :-<span id="language"></span> </em> <br>
+                    <em>Language easy to learn is:- <span id="outcome"></span> </em> <br>
+                    <em>Your best IT hub in Africa is:-<span id="city"></span> </em> <br>
+
+                    </div>
+                <div class="form-group fillName">
+                    <label class="control-label "> Enter your Name here</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your Name here">
+
+                </div>
+                <div class="form-group fillName" >
+                    <label class=" control-label"> Enter your Name age:</label>
+                    <input type="number" class="form-control" id="date" placeholder="Enter your age:">
+                
+                </div>
+                <div class="form-group ">
+                    <label class=" control-label" >Which languages can you speak fluently?</label>
+                    <div id="radiobutton">
+                        <input type="radio"  id="language" name="English" >
+                        <label for="English">English</label>
+                    </div>
+                    <div id="radio-button">
+                        <input type="radio" id="language" name="French">
+                        <label for="french">French</label>
+                    </div>
+                    <div id="radiobutton">
+                        <input type="radio" id="language"  name="Kiswahili">
+                        <label for="Kiswahi">Kiswahili</label>
+                    </div>
+                    <div id="radiobutton">
+                        <input type="radio" id="language"  name="Sheng">
+                        <label for="Sheng">Sheng</label>
+                    </div>
+                    <div id="radiobutton">
+                        <input type="radio" id="language" name="none" >
+                        <label for="None">None of Above</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class=" control-label">which language is easy to learn?</label>
+                    <select class="form-control" id="outcome">
+                        <option value="French is easy to learn">French is easy to learn</option>
+                        <option value="English is easy to learn">English is easy to learn</option>
+                        <option value="Kiswahili is easy to learn">Kiswahili is easy to learn</option>
+                        <option value="Sheng is easy to learn">sheng is easy to learn</option>
+                        <option value="No is easy to learn">No language is easy to learn</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class=" control-label">Name your best IT hub in Africa</label>
+                    <div class="form-check">
+                        <input type="checkbox" id="city" value="Nairobi" name="Nairobi"> 
+                        <label for="Nairobi">Nairobi</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="city" value="Lagos" name="Lagos"> 
+                        <label for="Lagos">Lagos</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="city" value="Rwanda" name="Kigali"> 
+                        <label for="Rwanda">Kigali</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="city" value="Egypt" name="Cairo"> 
+                        <label for="Egypt">Cairo</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="city" value="none" name="none"> 
+                        <label for="none">None</label>
+                    </div>
+                    <!-- <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Default checkbox
+                        </label>
+                      </div> -->
+                </div>
+                <button class="btn btn-warning btn-block btn-lg " type="submit">Submit</button>
+            </form> 
+           </div>
+                    
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
